@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+li{
+	list-style: none;
+}
+img{
+	border:0;
+}
+body{
+	width: 100%;
+	min-height: 100%;
+	font-size: 12px;
+}
+[data-dpr="2"] body {
+    font-size: 24px;
+}
+[data-dpr="3"] body {
+    font-size: 36px;
+}
+
+.container{
+	min-height: 100%;
+    background-color: #ee0a3b;
+    position: relative;
+    font-size: 12px;
+}
+.banner{
+	width: 100%;
+	text-align: center;
+}
+.banner img{
+	width: 10rem;
+	height: 5.6rem;
+}
+.list{
+	padding:0.133333rem;
+	
+}
+.list-item{
+	width: 100%;
+	display: table;
+	border-bottom: 1px solid gray;
+	position: relative;
+}
+.h-img{
+	display: table-cell;
+	width: 2.7rem;
+	height: 2.7rem;
+	padding:0.16rem 0;
+	vertical-align: top;
+	background-color: #fff;
+
+}
+.h-img img{
+	width: 100%;
+	height: 100%;
+}
+.flag-item{
+	width: 7.0rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+.flag-item a{
+	color:#333;
+	line-height: 1.25;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: horizontal;
+	display: -webkit-box;
+	display: box;
+	font-size:12px;
+
+}
+[data-dpr="2"] .flag-item a {
+    font-size: 24px;
+}
+[data-dpr="3"] .flag-item a {
+    font-size: 36px;
+}
+.price{
+	padding: 0.266667rem 0 0.266667rem;
+
+}
+
+.price span{
+	display: inline-block;
+	padding:0.066667rem;
+	background-color: #ee0a3b;
+	font-weight: 700;
+	color:#fff;
+	border-radius: 0.106667rem;
+	font-size:11px;
+	vertical-align: top;
+	margin-top:0.04rem;
+}
+[data-dpr="2"] .price span{
+	font-size: 20px;
+}
+[data-dpr="3"] .price span{
+	font-size: 30px;
+}
+.price strong{
+	font-size: 16px;
+	color:#ee0a3b;
+	display: inline-block;
+	margin-left: 0.133333rem;
+	margin-right:0.133333rem;
+}
+
+[data-dpr="2"] .price strong{
+	font-size: 32px;
+}
+[data-dpr="3"] .price strong{
+	font-size: 52px;
+}
+
+.price small{
+	font-size: 16px;
+	color:#ee0a3b;
+	display: inline-block;
+	margin-right:0.133333rem;
+	font-weight: 700;
+	color:#ee0a3b;
+}
+
+[data-dpr="2"] .price small{
+	font-size: 26px;
+}
+[data-dpr="3"] .price small{
+	font-size: 40px;
+}
+.sellnum{
+	font-size: 16px;
+	color:#ff3600;
+	font-weight: 400;
+
+}
+[data-dpr="2"] .sellnum{
+	font-size: 26px;
+}
+[data-dpr="3"] .sellnum{
+	font-size: 38px;
+}
+.qiang{
+	position: absolute;
+	right:0.266667rem;
+	bottom: 0.2rem;
+	width: 2.4rem;
+	height: 0.666667rem;
+	line-height: 0.666667rem;
+	text-align: center;
+	color:#fff;
+	background-color: #ee0a3b;
+	font-size: 20px;
+	float:right;
+}
+[data-dpr="2"] .qiang{
+	font-size: 30px;
+}
+[data-dpr="3"] .qiang{
+	font-size: 44px;
+}
+
